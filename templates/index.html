@@ -32,15 +32,16 @@
 
       <div class="text-container">
         <h3>Fixed Text ✅</h3>
-        <div class="fixed-text">
-          {% if fixed_text %}
-          <p>{{ fixed_text }}</p>
-          {% else %}
+        <div>
+          <div class="fixed-text">
+            {% if fixed_text %}
+            <p class="text-fixed">{{ fixed_text }}</p>
+            {% endif %}
+          </div>
           <p class="placeholder">
             🕓 The fixed text might take some time loading, thank you for your
             patience!
           </p>
-          {% endif %}
         </div>
       </div>
     </div>

@@ -81,8 +81,9 @@ img {
 
 .placeholder {
   color: #8e8a8a;
-  font-size: 0.8rem;
+  font-size: 0.7rem;
   line-height: 1.2;
+  padding-top: 0.4rem;
 }
 
 .text-fixed {
