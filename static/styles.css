@@ -67,12 +67,35 @@ textarea::placeholder {
 .main_button {
   padding: 0.5rem;
   font-size: 1rem;
-  font-weight: 500;
+  font-weight: 600;
   border: none;
   border-radius: 3px;
-  background-color: #6f2979;
+  background-color: #6f4975;
   color: white;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+img {
+  width: 3rem;
+}
+
+.placeholder {
+  color: #8e8a8a;
+  font-size: 0.8rem;
+  line-height: 1.2;
+}
+
+.text-fixed {
+  color: green;
+  font-size: 0.8rem;
+  line-height: 1.2;
+}
+
+.title-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 45%;
 }
 
 /* --- */

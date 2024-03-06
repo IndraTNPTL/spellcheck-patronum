@@ -10,16 +10,20 @@
   </head>
 
   <body>
-    <h1>SpellCheck Patronum</h1>
+    <div class="title-container">
+      <h1>SpellCheck Patronum</h1>
+      <img src="/static/favicon1.png" alt="magicwand" />
+    </div>
+
     <div class="main-container">
       <div class="text-container">
-        <h3>Your Text</h3>
+        <h3>Your text 📝</h3>
         <form action="/" method="post">
           <textarea
             placeholder="Enter your text here..."
             name="text"
             cols="30"
-            rows="10"
+            rows="5"
           ></textarea>
           <br />
           <input class="main_button" type="submit" value="Fix text" />
@@ -27,13 +31,18 @@
       </div>
 
       <div class="text-container">
-        <h3>Fixed Text</h3>
-
-        {% if fixed_text %}
+        <h3>Fixed Text ✅</h3>
         <div class="fixed-text">
+          {% if fixed_text %}
           <p>{{ fixed_text }}</p>
+          {% else %}
+          <p class="placeholder">
+            🕓 The fixed text might take some time loading, thank you for your
+            patience!
+          </p>
+          {% endif %}
         </div>
-        {% endif %}
       </div>
     </div>
+  </body>
 </html>
