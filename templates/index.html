@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/static/styles.css" />
+    <link rel="stylesheet" href="/static/reset.css" />
+    <link rel="icon" type="image/x-icon" href="/static/favicon1.png" />
+    <title>SpellCheck Patronum</title>
+  </head>
+
+  <body>
+    <h1>SpellCheck Patronum</h1>
+    <div class="main-container">
+      <div class="text-container">
+        <h3>Your Text</h3>
+        <form action="/" method="post">
+          <textarea
+            placeholder="Enter your text here..."
+            name="text"
+            cols="30"
+            rows="10"
+          ></textarea>
+          <br />
+          <input class="main_button" type="submit" value="Fix text" />
+        </form>
+      </div>
+
+      <div class="text-container">
+        <h3>Fixed Text</h3>
+
+        {% if fixed_text %}
+        <div class="fixed-text">
+          <p>{{ fixed_text }}</p>
+        </div>
+        {% endif %}
+      </div>
+    </div>
+</html>
