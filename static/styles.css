@@ -49,6 +49,7 @@ textarea {
   padding: 1rem;
   border-radius: 5px;
   color: #221d23;
+  border-color: black;
 }
 
 textarea::placeholder {
