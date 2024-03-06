@@ -10,11 +10,7 @@ Welcome to **SpellCheck Patronum**, the magical solution to all your spell-check
 - [Features](#features)
 - [Dependencies](#dependencies)
 - [Configuration](#configuration)
-- [Documentation](#documentation)
 - [Examples](#examples)
-- [Troubleshooting](#troubleshooting)
-- [Contributors](#contributors)
-- [License](#license)
 
 ## Introduction 🌟
 
