@@ -90,11 +90,11 @@ def fix_selection():
     else:
         print("Failed to fix the text.")
     
-def on_f9():
-    fix_current_line()
+# def on_f9():
+#     fix_current_line()
 
-def on_f10():
-    fix_selection()
+# def on_f10():
+#     fix_selection()
 
 
 @app.route('/', methods=['GET', 'POST'])
@@ -110,7 +110,7 @@ def index():
 if __name__ == '__main__':
     app.run(debug=True)
 
-with keyboard.GlobalHotKeys({
-        "<101>": on_f9,
-        "<109>": on_f10}) as h:
-    h.join()
+# with keyboard.GlobalHotKeys({
+#         "<101>": on_f9,
+#         "<109>": on_f10}) as h:
+#     h.join()
