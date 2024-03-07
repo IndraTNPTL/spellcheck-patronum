@@ -7,10 +7,14 @@ import time
 import httpx
 from string import Template
 
+
+# Flask app setup
 app = Flask(__name__)
 
+# Controller setup -> control keyboard inputs
 controller = Controller()
 
+# Constants to the OLLAMA endpoint and configuration
 OLLAMA_ENDPOINT = "http://localhost:11434/api/generate" 
 OLLAMA_CONFIG = {"model": "mistral", 
                  "keep_alive":"5m", 
@@ -19,7 +23,7 @@ OLLAMA_CONFIG = {"model": "mistral",
 
 # Allows to define a template where we will later insert the text
 PROMPT_TEMPLATE = Template(
-    """Fix all typos and casing and punctuation in this text, but preserve all new line characters. Keep the same language.
+    """Fix all typos and casing and punctuation in this text, but preserve all new line characters.
 
 $text
 
