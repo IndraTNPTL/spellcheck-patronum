@@ -54,6 +54,8 @@ textarea {
   border-radius: 5px;
   color: #221d23;
   border-color: black;
+  width: 20rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 textarea::placeholder {
@@ -66,6 +68,7 @@ textarea::placeholder {
   border-radius: 5px;
   color: #221d23;
   font-size: 0.9rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .main_button {
