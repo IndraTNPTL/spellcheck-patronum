@@ -14,7 +14,7 @@ Welcome to **SpellCheck Patronum**, the magical solution to all your spell-check
 
 ## Introduction 🌟
 
-SpellCheck Patronum is a web-based application designed to make your writing clearer and mistake-free. Inspired by the magical world where spells and charms correct the most complex problems, we offer a simple yet powerful tool to enhance your writing.
+SpellCheck Patronum is a web application designed to make your writing clearer and mistake-free. Inspired by the magical world where spells and charms correct the most complex problems, we offer a simple yet powerful tool to enhance your writing.
 
 ## Installation 🛠️
 
