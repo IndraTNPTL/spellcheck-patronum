@@ -110,7 +110,7 @@ img {
 
 /* --- */
 
-.loading-container {
+/* .loading-container {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -133,7 +133,7 @@ img {
   100% {
     transform: rotate(360deg);
   }
-}
+} */
 
 @media (max-width: 768px) {
   h1 {

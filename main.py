@@ -21,7 +21,7 @@ OLLAMA_CONFIG = {"model": "mistral",
                  "stream": False
                  }
 
-# Allows to define a template where we will later insert the text
+# Allows to define a template where I will later insert the text
 PROMPT_TEMPLATE = Template(
     """Fix all typos and casing and punctuation in this text, but preserve all new line characters.
 
